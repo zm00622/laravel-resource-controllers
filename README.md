@@ -38,6 +38,16 @@ php artisan make:migration create_posts_table
 
 ```
 
+Next, add column names to your table:
+
+Ex:
+
+```
+$table->string('name');
+$table->string('detail');
+
+```
+
 Lastly, migrate your table:
 
 ```
